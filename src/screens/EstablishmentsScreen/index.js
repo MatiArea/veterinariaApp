@@ -1,12 +1,12 @@
 import { FlatList, SafeAreaView, Text, View } from 'react-native'
 
-import EstablecimientoItem from '../../components/EstablecimientoItem'
+import EstablishmentItem from '../../components/EstablishmentItem'
 import { MENUITEMS } from '../../contants/data'
 import React from 'react'
 import { style } from './styles'
 
-const EstablecimientoScreen = ({ navigation }) => {
-  const renderItem = ({ item }) => <EstablecimientoItem item={item} navigation={navigation} />
+const EstablishmentScreen = ({ navigation }) => {
+  const renderItem = ({ item }) => <EstablishmentItem item={item} navigation={navigation} />
 
   return (
     <SafeAreaView>
@@ -22,4 +22,4 @@ const EstablecimientoScreen = ({ navigation }) => {
   )
 }
 
-export default EstablecimientoScreen
+export default EstablishmentScreen

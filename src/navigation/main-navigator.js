@@ -1,10 +1,10 @@
-import EstablecimientoScreen from '../screens/EstablecimientosScreen'
+import CowsScreen from '../screens/CowsScreen'
+import EstablishmentScreen from '../screens/EstablishmentsScreen'
 import HomeScreen from '../screens/HomeScreen'
+import LocationScreen from '../screens/LocationScreen'
 import React from 'react'
 import TopTabNavigator from './top-tab-navigator'
-import TorosScreen from '../screens/TorosScreen'
-import UbicacionScreen from '../screens/UbicacionScreen'
-import VacasScreen from '../screens/VacasScreen'
+import BullsScreen from '../screens/BullsScreen'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 const mainStack = createNativeStackNavigator()
@@ -26,11 +26,11 @@ const MainStackNavigator = () => {
           title: 'La veterinaria de Matias Area',
         })}
       />
-      <mainStack.Screen name="Establecimiento" component={EstablecimientoScreen} />
-      <mainStack.Screen name="Sanidad" component={TopTabNavigator} />
-      <mainStack.Screen name="Toros" component={TorosScreen} />
-      <mainStack.Screen name="Vacas" component={VacasScreen} />
-      <mainStack.Screen name="Ubicacion" component={UbicacionScreen} />
+      <mainStack.Screen name="Establishment" component={EstablishmentScreen} />
+      <mainStack.Screen name="Health" component={TopTabNavigator} />
+      <mainStack.Screen name="Bulls" component={BullsScreen} />
+      <mainStack.Screen name="Cows" component={CowsScreen} />
+      <mainStack.Screen name="Location" component={LocationScreen} />
     </mainStack.Navigator>
   )
 }

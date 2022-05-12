@@ -5,7 +5,7 @@ import ImageSelector from '../../components/ImageSelector'
 import { Picker } from '@react-native-picker/picker'
 import { style } from './styles'
 
-const SanidadPaso3Screen = ({ navigation }) => {
+const HealthStep3Screen = ({ navigation }) => {
   const [ProtocoloNombre, setProtocoloNombre] = useState()
   const [PositivasNro, setPositivasNro] = useState()
 
@@ -43,4 +43,4 @@ const SanidadPaso3Screen = ({ navigation }) => {
   )
 }
 
-export default SanidadPaso3Screen
+export default HealthStep3Screen

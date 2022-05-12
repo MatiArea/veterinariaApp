@@ -4,53 +4,44 @@ export const MENUITEMS = [
   {
     id: 0,
     title: 'Sanidad',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
-    redirectTo: 'Establecimiento',
+    redirectTo: 'Health',
   },
   {
     id: 1,
     title: 'Toros',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
-    redirectTo: 'Novedades Internas',
+    redirectTo: 'Bulls',
   },
   {
     id: 2,
     title: 'Vacas',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
-    redirectTo: 'Novedades Internas',
+    redirectTo: 'Cows',
   },
   {
     id: 3,
     title: 'Ubicacion',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
-    redirectTo: 'Novedades Internas',
+    redirectTo: 'Location',
   },
 ]
 
-export const ESTABLECIMIENTOS = [
+export const ESTABLISHMENTS = [
   {
     id: 0,
     title: 'Campo 1',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
   },
   {
     id: 1,
     title: 'Campo 2',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
   },
   {
     id: 2,
     title: 'Campo 3',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
   },
   {
     id: 3,
     title: 'Campo 4',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
   },
   {
     id: 4,
     title: 'Campo 5',
-    // icon: React.createElement(NovedadesInternas, { style: styleIcon.iconBig }),
   },
 ]

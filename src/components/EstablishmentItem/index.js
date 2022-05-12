@@ -4,7 +4,7 @@ import { styleIcon, styleText } from '../../contants/styles'
 import React from 'react'
 import { style } from './styles'
 
-const EstablecimientoItem = ({ item, navigation }) => {
+const EstablishmentItem = ({ item, navigation }) => {
   return (
     <View style={style.shadowContainer}>
       <View style={style.container}>
@@ -24,4 +24,4 @@ const EstablecimientoItem = ({ item, navigation }) => {
   )
 }
 
-export default EstablecimientoItem
+export default EstablishmentItem

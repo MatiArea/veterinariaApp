@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import CheckBox from '@react-native-community/checkbox'
 import { style } from './styles'
 
-const SanidadPaso1Screen = ({ navigation }) => {
+const HealthStep1Screen = ({ navigation }) => {
   const [Brucelosis, setBrucelosis] = useState(false)
   const [Tuberculosis, setTuberculosis] = useState(false)
   const [Venerear, setVenerear] = useState(false)
@@ -60,4 +60,4 @@ const SanidadPaso1Screen = ({ navigation }) => {
   )
 }
 
-export default SanidadPaso1Screen
+export default HealthStep1Screen
